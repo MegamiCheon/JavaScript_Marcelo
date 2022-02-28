@@ -21,3 +21,17 @@ document.write("Mutiplicação: " + rest + "<br>");
 //Resto de Divisão
 rest = num1 % num2;
 document.write("Resto da divisão: " + rest + "<br>");
+
+// Menor
+rest = num1 > num2;
+document.write(rest + "<br>");
+
+// Maior
+rest = num1 < num2;
+document.write(rest + "<br>");
+
+// Igual
+rest = num1 = num2;
+document.write(rest + "<br>");
+
+
