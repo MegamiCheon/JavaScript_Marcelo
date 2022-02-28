@@ -34,4 +34,7 @@ document.write(rest + "<br>");
 rest = num1 = num2;
 document.write(rest + "<br>");
 
+// Diferente
 
+
+// 
