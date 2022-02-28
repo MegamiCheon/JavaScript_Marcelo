@@ -1,6 +1,6 @@
-var num1 = parseInt(window.prompt("Insira um valor:"));
-var num2 = parseInt(window.prompt("Insira outro valor:"));
-var rest = 0;
+var num1 = parseFloat(window.prompt("Insira um valor:"));
+var num2 = parseFloat(window.prompt("Insira outro valor:"));
+var rest = 0.0;
 
 // Adição
 rest = num1 + num2;
