@@ -1,0 +1,30 @@
+/* Geral settings */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header settings */
+
+header {
+    background-color: aliceblue;
+    padding: 1%;
+    color: rgb(0, 0, 0)
+}
+
+/* List settings */
+
+input.a1 {
+    margin-left: 43%;
+    padding: 4px;
+}
+
+input.b1 {
+    padding: 6px;
+}
+
+ul {
+    margin-left:43%;
+}
