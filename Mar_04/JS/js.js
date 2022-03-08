@@ -24,14 +24,14 @@ function cine() {
 var cod = document.getElementById("num").value;
 
 if (cod == 1) {
-    document.write('Seu filme é <b>The Batman</b>, na sala 001');
+    document.getElementById("cu").innerHTML ='Seu filme é <b>The Batman</b>, na sala 001';
 } else if (cod == 2) {
-    document.write('Seu filme é <b>Uncharted</b>, na sala 002');
+    document.getElementById("cu").innerHTML ='Seu filme é <b>Uncharted</b>, na sala 002';
 } else if (cod == 3) {
-    document.write('Seu filme é <b>Urisinhos carinhosos</b>, na sala 003');
+    document.getElementById("cu").innerHTML ='Seu filme é <b>Urisinhos carinhosos</b>, na sala 003';
 } else if (cod == 4) {
-    document.write('Seu filme é <b>Exorcismo Sagrado</b>, na sala 004');
+    document.getElementById("cu").innerHTML ='Seu filme é <b>Exorcismo Sagrado</b>, na sala 004';
 } else if (cod == 5) {
-    document.write('Seu filme é <b>Coração de Fogo</b>, na sala 005');
-}
+    document.getElementById("cu").innerHTML ='Seu filme é <b>Coração de Fogo</b>, na sala 005';
+} else {document.getElementById("cu").innerHTML = 'Este filme não está no catalogo'}
 }
