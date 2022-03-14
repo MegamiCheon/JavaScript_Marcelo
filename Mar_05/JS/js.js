@@ -1,35 +1,38 @@
-function calc() {
+function add() {
 
-var num1 = document.getElementById("num1").value;
-var num2 = document.getElementById("num2").value;
-var rest = 0.0;
+var num1 = parseFloat(document.getElementById("num1").value);
+var num2 = parseFloat(document.getElementById("num2").value);
 
-// Adição
-rest = num1 + num2;
-document.getElementById("rests").innerHTML ="Soma: " + rest + "<br>";
+var calc = num1 + num2;
+document.getElementById("add").value = calc;
+}
 
-// Subtração
-rest = num1 - num2;
-document.getElementById("rests").innerHTML ="Subtração: " + rest + "<br>";
+function sub() {
 
-//Divisão
-rest = num1 / num2;
-document.getElementById("rests").innerHTML ="Divisão: " + rest + "<br>";
+    var num1 = parseFloat(document.getElementById("num1").value);
+    var num2 = parseFloat(document.getElementById("num2").value);
 
-//Multiplicação
-rest = num1 * num2;
-document.getElementById("rests").innerHTML ="Mutiplicação: " + rest + "<br>";
+    var calc = num1 - num2;
+    document.getElementById("sub").value = calc;
 
-//Resto de Divisão
-rest = num1 % num2;
-document.getElementById("rests").innerHTML ="Resto da divisão: " + rest + "<br>";
+}
 
-// Menor
-rest = num1 > num2;
-document.getElementById("rests").innerHTML ="É " + rest + "<br>";
+function mut() {
 
-// Maior
-rest = num1 < num2;
-document.getElementById("rests").innerHTML ="É " + rest + "<br>";
+    var num1 = parseFloat(document.getElementById("num1").value);
+    var num2 = parseFloat(document.getElementById("num2").value);
+
+    var calc = num1 * num2;
+    document.getElementById("mut").value = calc;
+
+}
+
+function div() {
+
+    var num1 = parseFloat(document.getElementById("num1").value);
+    var num2 = parseFloat(document.getElementById("num2").value);
+
+    var calc = num1 / num2;
+    document.getElementById("div").value = calc;
 
 }

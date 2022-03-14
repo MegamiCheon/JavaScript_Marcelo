@@ -8,14 +8,33 @@
     <script src="JS/js.js"></script>
 </head>
 <body>
-    <div class="princ">
+    <!-- <div class="princ">
         <input type="text" placeholder="Insira um número" class="a1" id="num1">
         <input type="text" placeholder="Insira um número" class="a1" id="num2"><br>
         <input type="button" value="Clean">
         <input type="button" value="Submit" onclick="calc()">
     </div>
     <div class="rest" id="rests">
-        sim
-    </div>
+        
+    </div> -->
+    
+    <h1>Calculadora</h1>
+    <label for="num1">Numero 1</label>
+    <input type="text" name="num1" id="num1">
+    <label for="num2">Numero 2</label>
+    <input type="text" name="num2" id="num2">
+    <br><br>
+    Adição: <input type="text" id="add">
+    <input type="button" name="btn-add" value="Adição" onclick="add()"><br>
+
+    Subtração: <input type="text" id="sub">
+    <input type="button" name="btn-sub" value="Subtração" onclick="sub()"><br>
+
+    Multiplicação: <input type="text" id="mut">
+    <input type="button" name="btn-mut" value="Multiplicação" onclick="mut()"><br>
+
+    Divisão: <input type="text" id="div">
+    <input type="button" name="btn-div" value="Divisão" onclick="div()">
+
 </body>
 </html>
