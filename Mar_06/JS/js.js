@@ -3,7 +3,7 @@ var indece;
 // Estrutura de repetição FOR
 
 for (indeci=0; indece = 10; indece++){
-    document.write('<br>ola mundo' +indece)
+    document.write('<br>Helo World' +indece)
 }
 
 // Estrutura de repetição WHILE
@@ -11,6 +11,6 @@ for (indeci=0; indece = 10; indece++){
 indece=1;
 
 while (indece <= 10){
-    document.write('ola mundo' +indece);
+    document.write('Hello World' +indece);
     indece++;
 }
