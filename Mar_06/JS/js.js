@@ -24,5 +24,5 @@ var alunos = ["Marcelo", "João", "Vinicius", "Redivo", "Laiz"];
 
 var i;
 for(i=0; i <= 3; i++){
-    document.write("Aluno "+i+": "+alunos[i]);
+    document.write("Aluno "+i+": "+alunos[i] +" ");
 }
